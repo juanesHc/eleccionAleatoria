@@ -1,7 +1,89 @@
+# ========================================
+# BACKEND (Python / FastAPI)
+# ========================================
+
+# Entorno virtual
+Backend/venv/
+env/
 venv/
-*/venv/*
 
 # Archivos compilados y caché
-*.pyc
+*.py[cod]
 __pycache__/
+*.so
 
+# Archivos de entorno / secretos
+.env
+*.env
+
+# Configuración específica de IDE
+.vscode/
+.idea/
+*.iml
+
+# Archivos de build/distribución
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Archivos de cobertura / testing
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.cache
+.pytest_cache/
+
+# ========================================
+# FRONTEND (Angular)
+# ========================================
+
+# Dependencias
+frontend/node_modules/
+
+# Builds
+frontend/dist/
+frontend/.angular/
+
+# Archivos temporales de npm/yarn
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+pnpm-lock.yaml
+
+# Ambiente local
+frontend/.env
+frontend/.env.*.local
+
+# IDEs y OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# ========================================
+# GLOBAL (para todo el repo)
+# ========================================
+
+# Archivos de sistema
+*.log
+*.tmp
+*.bak
+
+# Carpetas de editor comunes
+.vscode/
+.idea/

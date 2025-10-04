@@ -1,2 +1,7 @@
-__pycache__/
 venv/
+*/venv/*
+
+# Archivos compilados y caché
+*.pyc
+__pycache__/
+
